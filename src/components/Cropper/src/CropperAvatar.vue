@@ -121,6 +121,7 @@
   .@{prefix-cls} {
     display: inline-block;
     text-align: center;
+  font-size: 16px;
 
     &-image-wrapper {
       overflow: hidden;
