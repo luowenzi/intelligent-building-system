@@ -3,11 +3,11 @@
     <LayoutFeatures />
     <LayoutHeader fixed v-if="getShowFullHeaderRef" />
     <Layout :class="[layoutClass]">
-      <LayoutSideBar v-if="getShowSidebar || getIsMobile" />
+      <!-- <LayoutSideBar v-if="getShowSidebar || getIsMobile" /> -->
       <Layout :class="`${prefixCls}-main`">
-        <LayoutMultipleHeader />
+        <!-- <LayoutMultipleHeader /> -->
         <LayoutContent />
-        <LayoutFooter />
+        <!-- <LayoutFooter /> -->
       </Layout>
     </Layout>
   </Layout>
